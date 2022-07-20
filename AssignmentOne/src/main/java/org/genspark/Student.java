@@ -18,12 +18,10 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "ID: " + id +
-                ", Name: '" + name + '\'' +
-                ", Phone Number: " + ph +
-                ", " + add +
-                '}';
+        return '\n' +"Student ID: " + id + '\n'+
+                "Name: " + name + '\n' +
+                "Phone Number: " + ph +
+                add ;
     }
 
     public  void findStudent()
