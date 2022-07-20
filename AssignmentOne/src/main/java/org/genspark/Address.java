@@ -14,12 +14,11 @@ public class Address {
     }
     @Override
     public String toString() {
-        return "Address{" +
-                "City: '" + city + '\'' +
-                ", State: '" + state + '\'' +
-                ", Country: '" + country + '\'' +
-                ", Zipcode: '" + zipcode + '\'' +
-                '}';
+        return '\n'+"Address-->" + '\n' +
+                "City: " + city + '\n' +
+                "State: " + state + '\n' +
+                "Country: " + country + '\n' +
+                "Zipcode: " + zipcode + '\n';
     }
 
     public String getCity() {
