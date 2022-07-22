@@ -19,10 +19,10 @@
     </bean>
 
     <bean id="phone1" class="org.genspark.Phone">
-        <constructor-arg index="0" value="7405275201" />
+        <constructor-arg index="0" value="7405275555" />
     </bean>
     <bean id="phone2" class="org.genspark.Phone">
-        <constructor-arg index="0" value="7405041777" />
+        <constructor-arg index="0" value="7405045555" />
     </bean>
     <bean id="phone3" class="org.genspark.Phone">
         <constructor-arg index="0" value="5558675309" />
