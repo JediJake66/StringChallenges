@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Phone
 {
-    public String mob="7405275201, 7405275201";
+    public String mob="7405275555, 7405276666";
     @Override
     public String toString(){
         return mob;
